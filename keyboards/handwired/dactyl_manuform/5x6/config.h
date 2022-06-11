@@ -39,6 +39,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_DI_PIN D3
 #define RGBLED_NUM 12
 
+#define RGBLIGHT_SPLIT
+#define RGBLIGHT_SLEEP
+#define RGBLIGHT_ANIMATIONS
+
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
 
