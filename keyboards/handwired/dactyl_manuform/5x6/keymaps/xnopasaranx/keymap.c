@@ -4,9 +4,9 @@
 enum {
     _QWERTY = 0,
     _NUM,
-	_NAV,
-  	_I3,
-  	_GAME
+    _NAV,
+    _I3,
+    _GAME
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -17,7 +17,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_LCTL, KC_Z   , KC_X   , KC_C   , KC_V   , KC_B   ,                        KC_N   , KC_M   , KC_COMM, KC_DOT , KC_SLSH, KC_BSLS,
                       KC_LBRC, KC_RBRC,                                                            KC_RALT, KC_EQL ,
                                                  TT(2)  , KC_SPC ,       KC_ENT, TT(1),
-                                                 KC_LSFT, KC_HOME,       QK_BOOT, KC_LGUI,
+                                                 KC_LSFT, KC_HOME,       KC_END, KC_LGUI,
                                                  TO(3), TO(4),           KC_DEL, TO(0)
                                                  ),
 
@@ -28,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TRNS, KC_TRNS, KC_TRNS, KC_HOME, KC_PGDN, KC_END  ,                       KC_TRNS, KC_P1  , KC_P2  , KC_P3  , KC_EQL , KC_UNDS,
                       KC_TRNS, KC_PSCR,                                                   KC_LALT, KC_P0,
                                                  KC_TRNS, KC_TRNS,      KC_TRNS, KC_TRNS,
-                                                 KC_TRNS, KC_TRNS,      KC_TRNS, KC_TRNS,
+                                                 KC_TRNS, KC_TRNS,      QK_BOOT, KC_TRNS,
                                                  KC_TRNS, KC_TRNS,      EE_CLR, KC_TRNS
                                             ),
 
